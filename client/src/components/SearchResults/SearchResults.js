@@ -13,6 +13,8 @@ const SearchResults = props =>
             {/* <p className="card-text">Full Name: {props.name}</p> */}
             <p className="card-text">Wall Name: {props.wallName.toUpperCase()}</p>
             <p className="card-text"> Gift Name: {props.item}</p>
+            <p className="card-text"> Date Posted (YYYY-MM-DD):</p>
+            <p className="card-text">{props.date}</p>
             <p className="card-text"> Distance:</p>
             <p className="card-text">{props.distanceM} m</p>
             <p className="card-text">{props.distanceKM} km</p>

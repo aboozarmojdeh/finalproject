@@ -817,6 +817,7 @@ class Search extends Component {
                       // name={result.name}
                       wallName={result.wallName}
                       item={result.item}
+                      date={result.date.slice(0,10)}
                       email={result.email}
                       // city={result.city}
                       // address={result.address}
